@@ -1,0 +1,120 @@
+Section          Base   Top    High   Length
+---------------- ------ ------ ------ -------
+.icon            D1A882 D1A9A3           121h
+.init.libs       D1A9A3 D1A9FB            58h
+.libs            D1A9FB D1AA46            4Bh
+.init.clock      D1AA46 D1AA46             0h
+.init.reruncheck D1AA46 D1AA46             0h
+.init            D1AA46 D1AA70            2Ah
+.fini            D1AA70 D1AAA4            34h
+.text            D1AAA4 D1C9EB          1F47h
+.data            D1C9EB D1CFBC           5D1h
+.rodata          D1CFBC D1D04A            8Eh
+.init_array      000000 000000             0h
+.ctors           000000 000000             0h
+.dtors           000000 000000             0h
+.fini_array      000000 000000             0h
+.bss             D052C6 D05397 D13FD8     D1h
+.header          D1A87F D1A882             3h
+
+Label                                         Value
+-------------------------------------------   ------
+___low_bss                                  = D052C6
+___len_bss                                  = 0000D1
+___heaptop                                  = D13FD8
+___heapbot                                  = D05397
+___libs                                     = D1A9FB
+___init_array_count                         = 000000
+___ctors_count                              = 000000
+___dtors_count                              = 000000
+___fini_array_count                         = 000000
+__stack                                     = D1A87E
+_frexp                                      = D1AAA4
+_frexpf                                     = D1AAC0
+_modff                                      = D1AB31
+_sin                                        = D1ABDB
+_sinf                                       = D1ABF1
+_sinus                                      = D1AC0C
+_sqrt                                       = D1AE83
+_cosf                                       = D1AE99
+_cos                                        = D1AE99
+_os_DisableHomeTextBuffer                   = D1AECA
+_os_EnableHomeTextBuffer                    = D1AEDC
+_free                                       = D1AEEE
+_malloc                                     = D1AF97
+__alloc_base                                = D052C6
+_realloc                                    = D1B033
+__fneg                                      = D1B0A6
+__frameset                                  = D1B0B3
+__frameset0                                 = D1B0C1
+_sbrk                                       = D1B0CC
+__sbrkbase                                  = D1C9EB
+__fadd                                      = 000270
+__fcmp                                      = 000274
+__fdiv                                      = 000278
+__fmul                                      = 000288
+__fsub                                      = 000290
+__ftol                                      = 00027C
+__iand                                      = 000134
+__idivs                                     = 00013C
+__imulu                                     = 000158
+__ishl                                      = 000174
+__ladd                                      = 00019C
+__land                                      = 0001A4
+__lshl                                      = 0001E4
+__lshrs                                     = 0001E8
+__lsub                                      = 0001F8
+__ltof                                      = 000284
+__sand                                      = 000200
+__setflag                                   = 000218
+__ultof                                     = 000280
+_memcpy                                     = 0000A4
+_sqrtf                                      = 000298
+.missingappvar                              = D1CFBC
+.libloadname                                = D1CFC1
+.libloadnamelen                             = 000007
+.webaddress                                 = D1CFC9
+__start                                     = D1AA46
+___exithl                                   = D1AA70
+skip._exit                                  = D1AA70
+skip.__Exit                                 = D1AA70
+skip._abort                                 = D1AA70
+_exit.sp                                    = D1AA71
+_exit.flash_wait_states                     = D1AA7B
+_arm_data                                   = D1C9EE
+_global_palette                             = D1CB80
+_wall_data                                  = D1CBBA
+_begin                                      = D1B0EA
+_loadBounceLines                            = D1B144
+_step                                       = D1B73B
+LJTI2_0                                     = D1CFDE
+_handleBulletFiring                         = D1BD15
+_draw                                       = D1C29B
+_game                                       = D1C560
+_lineIntersection                           = D1C5A0
+_main                                       = D1C9E3
+_X_POS                                      = D052CC
+_Y_POS                                      = D052CF
+_bounceLinesCount                           = D052D2
+_collisions                                 = D052D5
+_collisionIndex                             = D052D8
+_bullets                                    = D052DB
+_ARM_ANGLE                                  = D0538A
+_FIRE_PRESSED                               = D0538B
+_MAP                                        = D1CFEA
+_currentPoint                               = D0538C
+_bounceLines                                = D05394
+_#gfx_Begin                                 = D1AA04
+_#gfx_End                                   = D1AA08
+_#gfx_SetColor                              = D1AA0C
+_#gfx_SetPalette                            = D1AA10
+_#gfx_SetDraw                               = D1AA14
+_#gfx_SwapDraw                              = D1AA18
+_#gfx_Line                                  = D1AA1C
+_#gfx_FillCircle                            = D1AA20
+_#gfx_FillRectangle                         = D1AA24
+_#gfx_FillRectangle_NoClip                  = D1AA28
+_#gfx_TransparentSprite                     = D1AA2C
+_#gfx_ZeroScreen                            = D1AA30
+_#gfx_RotatedScaledTransparentSprite_NoClip = D1AA34
+_#kb_Scan                                   = D1AA42

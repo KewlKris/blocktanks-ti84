@@ -1,0 +1,8 @@
+	section	.text,"ax",@progbits
+	assume	adl = 1
+	section	.data,"aw",@progbits
+	public	_global_palette
+_global_palette:
+	db	"ÿÿ", 0, 0, "¥ğz™ÖZ„9çàƒµÖÖÚöZ÷^÷Şã9gZë{o{ï›oœsœó¼s½w½÷İwŞ{Şûş{ÿ"
+
+	ident	"clang version 14.0.0 (https://github.com/jacobly0/llvm-project a139def90d26173f771eb1eca797633d1fbb2797)"

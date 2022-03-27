@@ -1,0 +1,30 @@
+palettes:
+  - name: global_palette
+    fixed-entries:
+      - color: {index: 0, r: 255, g: 255, b: 255} # White (also used for transparency)
+      - color: {index: 1, r: 0, g: 0, b: 0} # Black
+      - color: {index: 2, r: 231, g: 43, b: 43} # Red tank color
+      - color: {index: 3, r: 52, g: 92, b: 210} # Blue tank color
+      - color: {index: 4, r: 180, g: 180, b: 180} # Wall color
+      - color: {index: 5, r: 35, g: 35, b: 35} # Roof color
+      - color: {index: 6, r: 208, g: 208, b: 208} # Tank arm color
+      - color: {index: 7, r: 0, g: 255, b: 0} # Green (debug)
+    images: automatic
+    speed: 1
+
+converts:
+  - name: sprites
+    palette: global_palette
+    transparent-color-index: 0
+    images:
+      - arm.png
+      - wall.png
+
+outputs:
+  - type: c
+    include-file: gfx.h
+    palettes:
+      - global_palette
+    converts:
+      - sprites
+
